@@ -1,0 +1,10 @@
+﻿surveyid,transectid,survey_date,site,site_fullname,folder_name,lat_start,lng_start,camera,depth,temp
+0001,00,20230804,CBK,Chalok Baan Kao Bay,20230804_CBK,"10°03'51""N","99°49'36""E",Olympus TG-6,0.3m,31.3℃
+0002,00,20230815,TTB,Tanote Bay,20230815_TTB,10°05'00''N,99°51'03''E,Olympus TG-6,15m,31.0℃
+0003,00,20230816,TCB,Taa Chaa Bay,20230816_TCB,10°03'39''N,99°49'54''E,Olympus TG-6,5m,31.6℃
+0004,00,20230817,SKI,Shark Island,20230817_SKI,10°03'46''N,99°50'44''E,Olympus TG-6,18m,28.9℃
+0025,00,20230919,SWP,Southwest Pinnacle,20230919_SWP,9°59'56''N,99°46'43''E,Olympus TG-6,23.3m,28.6℃
+0029,12,20230926,HWB,Hin Wong Bay,20230926_HWB,10°06'05''N,99°51'02''E,Olympus TG-6,8.8m,27.6℃
+0030,11,20230927,ALK,Aow Leuk,20230927_ALK,10°04'19''N,99°50'29''E,Olympus TG-6,9.2m,27.7℃
+0031,00,20230928,HNM,Hin Ngam,20230928_HNM,10°04'01''N,99°50'28''E,Olympus TG-6,9.8m,27.5℃
+0032,00,20230929,AOM,Aow Mao,20230929_AOM,10°05'34''N,99°51'19''E,Olympus TG-6,21.3m,28.3℃
