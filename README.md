@@ -13,12 +13,14 @@ The project covered most of the coral habitats surrounding Koh Tao, selected bas
 ### Dataset organization
 There are 23,965 image patches generated from nine times of field surveys. At each site, the sampling strategy is as follows:
 ![image](https://github.com/XL-SHAO/CoralConditionDataset/assets/117028875/9f417cd5-7aea-4cb7-b18b-d28706c904e9)
-All the image tiles are in JPG format. The images are organized based on the survey they were collected from. For example, the folder ‘20230804_CBK’ is named after the survey date_abbreviation of the site. The full name of each site can be found in the ‘surveys_metadata’ in the tabular_data folder.
+All the image patches are in JPG format. The images are organized based on the survey they were collected from. For example, the folder ‘20230804_CBK’ is named after the survey date_abbreviation of the site. The full name of each site can be found in the ‘surveys_metadata’ in the tabular_data folder.
 ### Image naming conventions
 The name of each image consists of five parts separated by underscores: the three-letter site code of the sampling site (e.g., ALK=Ao Leuk, CBK=Chalok Baan Kao Bay), the unique four-digit survey number, the two-digit transect number, the date of the survey formatted as YYYYMMDD, the four-digit image number, and the number of the image patch. Examples of the images are as follows:
 CBK_0001_11_20230805_0001_12, TTB_0002_00_20230815_0002_02
 ### Dataset content
-**1.Metadata:** (surveys_metadata.csv) this file provides additional information about the images, and it is organized by the survey id, which refers to every single time of the field observation. The parameters contained in this table are as follows:
+**1.Coral images:** ([coral_images.zip](https://drive.google.com/file/d/1linqlOSXItbMBRcnA0DoiULcCgyApodb/view?usp=drive_link)) this file contains all the underwater coral images taken during the field survey. All the image patches are in 512*512 pixels.
+
+**2.Metadata:** (surveys_metadata.csv) this file provides additional information about the images, and it is organized by the survey id, which refers to every single time of the field observation. The parameters contained in this table are as follows:
 * surveyid: the unique four-digit code representing each observation. For instance, the first field observation was conducted on August 4th, 2023, at Chalok Baan Kao Bay; all the images from this observation will be named with survey id 0001.
 * transectid: the two-digit code representing the transect lines. The first digit identifies if the transect is permanent (1-permanent, 0-temporal), and the second digit reflects if the transect is the 1-shallow line (2-4m depth) or 2-deep line (9-10m depth). Additionally, 00 stands for images collected randomly without setting up transects.
 * survey_date: in YYYYMMDD form, reflecting the date the survey is conducted.
@@ -29,9 +31,9 @@ CBK_0001_11_20230805_0001_12, TTB_0002_00_20230815_0002_02
 * depth: average depth of this survey.
 * temp: average temperature of this survey.
 
-**2.Labelset of the annotation:** (labelsets.csv) this table contains the set of possible labels that can be assigned to the objects within the images. It includes four labels reflecting the coral conditions and four for stressors.
+**3.Labelset of the annotation:** (labelsets.csv) this table contains the set of possible labels that can be assigned to the objects within the images. It includes four labels reflecting the coral conditions and four for stressors.
 
-**3.Annotations:** (annotations.csv) annotation file contains the image patch id and its corresponding classification label, which is used for model training and image classification. This annotation was labeled by human experts in marine ecology and coral conservation.
+**4.Annotations:** (annotations.csv) annotation file contains the image patch id and its corresponding classification label, which is used for model training and image classification. This annotation was labeled by human experts in marine ecology and coral conservation.
 # Citation
 If this dataset contributes to your research, please consider citing our paper:
 ```LaTeX
