@@ -34,11 +34,13 @@ CBK_0001_11_20230805_0001_12, TTB_0002_00_20230815_0002_02
 **3.Annotations:** (annotations.csv) annotation file contains the image patch id and its corresponding classification label, which is used for model training and image classification. This annotation was labeled by human experts in marine ecology and coral conservation.
 # Citation
 If this dataset contributes to your research, please consider citing our paper:
+```LaTeX
 @article{shao2024coral,
   title={Deep learning for multi-label classification of coral conditions in the Indo-Pacific via underwater photogrammetry},
   author={Shao, Xinlei and Chen, Hongruixuan and Magson, Kirsty and Wang, Jiaqi and Song, Jian and Chen, Jundong and Sasaki, Jun},
   journal={Aquatic Conservation: Marine and Freshwater Ecosystems},
   year={2024}
 }
+```
 # Q & A
 For any questions, please [contact us.](mailto:yuishaoxinlei@gmail.com)
