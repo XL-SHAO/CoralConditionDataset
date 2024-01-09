@@ -32,3 +32,5 @@ CBK_0001_11_20230805_0001_12, TTB_0002_00_20230815_0002_02
 **2.Labelset of the annotation:** (labelsets.csv) this table contains the set of possible labels that can be assigned to the objects within the images. It includes four labels reflecting the coral conditions and four for stressors.
 
 **3.Annotations:** (annotations.csv) annotation file contains the image patch id and its corresponding classification label, which is used for model training and image classification. This annotation was labeled by human experts in marine ecology and coral conservation.
+# Q & A
+For any questions, please [contact us.](mailto:yuishaoxinlei@gmail.com)
