@@ -18,7 +18,7 @@ All the image patches are in JPG format. The images are organized based on the s
 The name of each image consists of five parts separated by underscores: the three-letter site code of the sampling site (e.g., ALK=Ao Leuk, CBK=Chalok Baan Kao Bay), the unique four-digit survey number, the two-digit transect number, the date of the survey formatted as YYYYMMDD, the four-digit image number, and the number of the image patch. Examples of the images are as follows:
 CBK_0001_11_20230805_0001_12, TTB_0002_00_20230815_0002_02
 ### Dataset content
-**1.Coral images:** ([coral_images.zip](https://drive.google.com/file/d/1linqlOSXItbMBRcnA0DoiULcCgyApodb/view?usp=drive_link)) this file contains all the underwater coral images taken during the field survey. All the image patches are in 512*512 pixels.
+**1.Coral images:** ([coral_images.zip](https://drive.google.com/drive/folders/1yjvVGSXuFRcO3b0SehyeAHzMtCHhI6S1?usp=drive_link)) this file contains all the underwater coral images taken during the field survey. All the image patches are in 512*512 pixels.
 
 **2.Metadata:** (surveys_metadata.csv) this file provides additional information about the images, and it is organized by the survey id, which refers to every single time of the field observation. The parameters contained in this table are as follows:
 * surveyid: the unique four-digit code representing each observation. For instance, the first field observation was conducted on August 4th, 2023, at Chalok Baan Kao Bay; all the images from this observation will be named with survey id 0001.
