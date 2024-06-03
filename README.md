@@ -8,7 +8,7 @@ The Koh Tao Coral Condition Survey Project was initiated by Jun Sasaki’s labor
 Given the Koh Tao Island case context, this research aims to apply state-of-the-art deep learning models to devise a new multi-label classification model for coral reef conservation, mainly aiming at revolutionizing the current monitoring program by integrating underwater images and citizen science text data. Coral images were collected by divers holding an Olympus TG-6 with waterproof housing. Geographical parameters were collected as metadata and saved as tabular data of the supplementary materials.
 ## Dataset
 ### Dataset description
-The project covered most of the coral habitats surrounding Koh Tao, selected based on the weather conditions and characteristics of the habitats. The dataset consists of (1) the original, uncropped 3000*4000 pixels images; (2) cropped, 512*512 pixels image patches for the training and test of the model; (3) classification labels annotated by human experts; and (4) metadata of each field survey.
+The project covered most of the coral habitats surrounding Koh Tao, selected based on the weather conditions and characteristics of the habitats. The dataset consists of (1) the original, uncropped 3000*4000 pixels images; (2) cropped, 512x512 pixels image patches for the training and test of the model; (3) classification labels annotated by human experts; and (4) metadata of each field survey.
 ![Study area](https://github.com/XL-SHAO/CoralConditionDataset/assets/117028875/b3a5df33-c3b0-4b9f-8b1c-09970549adf4)
 ### Dataset organization
 There are 23,965 image patches generated from nine times of field surveys. At each site, the sampling strategy is as follows:
@@ -18,7 +18,7 @@ All the image patches are in JPG format. The images are organized based on the s
 The name of each image consists of five parts separated by underscores: the three-letter site code of the sampling site (e.g., ALK=Ao Leuk, CBK=Chalok Baan Kao Bay), the unique four-digit survey number, the two-digit transect number, the date of the survey formatted as YYYYMMDD, the four-digit image number, and the number of the image patch. Examples of the images are as follows:
 CBK_0001_11_20230805_0001_12, TTB_0002_00_20230815_0002_02
 ### Dataset content
-**1.Coral images:** ([coral_images.zip](https://drive.google.com/drive/folders/1yjvVGSXuFRcO3b0SehyeAHzMtCHhI6S1?usp=drive_link)) this file contains all the underwater coral images taken during the field survey. All the image patches are in 512*512 pixels.
+**1.Coral images:** ([coral_images.zip](https://drive.google.com/drive/folders/1yjvVGSXuFRcO3b0SehyeAHzMtCHhI6S1?usp=drive_link)) this file contains all the underwater coral images taken during the field survey. All the image patches are in 512x512 pixels.
 
 **2.Metadata:** (surveys_metadata.csv) this file provides additional information about the images, and it is organized by the survey id, which refers to every single time of the field observation. The parameters contained in this table are as follows:
 * surveyid: the unique four-digit code representing each observation. For instance, the first field observation was conducted on August 4th, 2023, at Chalok Baan Kao Bay; all the images from this observation will be named with survey id 0001.
