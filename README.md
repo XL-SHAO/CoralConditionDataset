@@ -37,6 +37,7 @@ CBK_0001_11_20230805_0001_12, TTB_0002_00_20230815_0002_02
 
 ## Methodology
 An ensemble learning-based model combining Swin-Transformer-Small, Swin-Transformer-Base, and EfficientNet-B7 was proposed to automatically classify coral images with multiple labels, following the classification standard used in coral reef conservation programs.
+![Framework](https://github.com/XL-SHAO/CoralConditionDataset/assets/framework.jpg)
 
 # Citation
 If this dataset contributes to your research, please consider citing our paper:
