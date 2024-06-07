@@ -1,6 +1,6 @@
 # Coral image dataset for coral conditions monitoring in the Indo-Pacific
-Dataset and tabular data for coral condition classification paper: Deep learning for multi-label classification of coral conditions in the
-Indo-Pacific via underwater photogrammetry.
+![Dataset, labels, and codes for coral condition classification paper: Deep learning for multi-label classification of coral conditions in the
+Indo-Pacific using underwater photo transect method](https://doi.org/10.48550/arXiv.2403.05930)
 ## Project
 ### Project title
 The Koh Tao Coral Condition Survey Project was initiated by Jun Sasaki’s laboratory and implemented in collaboration with the New Heaven Reef Conservation NPO, Koh Tao, Thailand.
@@ -31,9 +31,13 @@ CBK_0001_11_20230805_0001_12, TTB_0002_00_20230815_0002_02
 * depth: average depth of this survey.
 * temp: average temperature of this survey.
 
-**3.Labelset of the annotation:** (labelsets.csv) this table contains the set of possible labels that can be assigned to the objects within the images. It includes four labels reflecting the coral conditions and four for stressors.
+**3.Labelset of the annotation:** (labelsets.csv) this table contains the set of possible labels that can be assigned to the objects within the images. It includes four labels reflecting the coral conditions and four for stressors, which are 1 = Healthy coral, 2 = Compromised coral, 3 = Dead coral, 4 = Rubble, 5 = Competition, 6 = Disease, 7 = Predation, and 8 = Physical issues
 
 **4.Annotations:** (annotations.csv) annotation file contains the image patch id and its corresponding classification label, which is used for model training and image classification. This annotation was labeled by human experts in marine ecology and coral conservation.
+
+## Methodology
+An ensemble learning-based model combining Swin-Transformer-Small, Swin-Transformer-Base, and EfficientNet-B7 was proposed to automatically classify coral images with multiple labels, following the classification standard used in coral reef conservation programs.
+
 # Citation
 If this dataset contributes to your research, please consider citing our paper:
 ```LaTeX
