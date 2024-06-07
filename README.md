@@ -36,7 +36,7 @@ CBK_0001_11_20230805_0001_12, TTB_0002_00_20230815_0002_02
 **4.Annotations:** (annotations.csv) annotation file contains the image patch id and its corresponding classification label, which is used for model training and image classification. This annotation was labeled by human experts in marine ecology and coral conservation.
 
 ## Methodology
-An ensemble learning-based model combining Swin-Transformer-Small, Swin-Transformer-Base, and EfficientNet-B7 was proposed to automatically classify coral images with multiple labels, following the classification standard used in coral reef conservation programs.
+An ensemble learning-based model combining Swin-Transformer-Small, Swin-Transformer-Base, and EfficientNet-B7 was proposed to automatically classify coral images with multiple labels, following the classification standard used in coral reef conservation programs. Codes are available in this repository, and the overall framework of this proposed approach is illustrated as follows:
 ![framework](https://github.com/XL-SHAO/CoralConditionDataset/blob/main/assets/Framework.jpg)
 # Citation
 If this dataset contributes to your research, please consider citing our paper:
