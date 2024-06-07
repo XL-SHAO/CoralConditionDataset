@@ -1,5 +1,5 @@
 # Coral image dataset for coral conditions monitoring in the Indo-Pacific
-![Dataset, labels, and codes for coral condition classification paper: Deep learning for multi-label classification of coral conditions in the
+Dataset, labels, and codes for coral condition classification paper: [Deep learning for multi-label classification of coral conditions in the
 Indo-Pacific using underwater photo transect method](https://doi.org/10.48550/arXiv.2403.05930)
 ## Project
 ### Project title
