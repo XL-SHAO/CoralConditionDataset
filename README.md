@@ -42,10 +42,15 @@ An ensemble learning-based model combining Swin-Transformer-Small, Swin-Transfor
 If this dataset contributes to your research, please consider citing our paper:
 ```LaTeX
 @article{shao2024coral,
-  title={Deep learning for multi-label classification of coral conditions in the Indo-Pacific using underwater photo transect method},
-  author={Shao, Xinlei and Chen, Hongruixuan and Magson, Kirsty and Wang, Jiaqi and Song, Jian and Chen, Jundong and Sasaki, Jun},
-  journal={Aquatic Conservation: Marine and Freshwater Ecosystems},
-  year={2024}
+ author = {Shao, Xinlei and Chen, Hongruixuan and Magson, Kirsty and Wang, Jiaqi and Song, Jian and Chen, Jundong and Sasaki, Jun},
+ title = {Deep Learning for Multilabel Classification of Coral Reef Conditions in the Indo-Pacific Using Underwater Photo Transect Method},
+ journal = {Aquatic Conservation: Marine and Freshwater Ecosystems},
+ volume = {34},
+ number = {9},
+ pages = {e4241},
+ doi = {https://doi.org/10.1002/aqc.4241},
+ note = {e4241 AQC-24-0036.R1},
+ year = {2024}
 }
 ```
 # Q & A
